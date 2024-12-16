@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store - Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{ background-image: url(bg3.png);
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="extra-clothes.html">Extra Clothes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="cart-box">Your cart is empty.</div>
+       
+    </header>
+    <main>
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="t shirt.jpeg" id="img" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <p>₹599</p>
+                <button class="add-to-cart" data-id="9" data-name="T-Shirt" data-price="599">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="jeans.jpeg" id="img"alt="Jeans">
+                <h3>Jeans</h3>
+                <p>₹1299</p>
+                <button class="add-to-cart" data-id="10" data-name="Jeans" data-price="1299">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="sneakers.jpeg" id="img" alt="Sneakers">
+                <h3>Sneakers</h3>
+                <p>₹1899</p>
+                <button class="add-to-cart" data-id="11" data-name="Sneakers" data-price="1899">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="top.jpeg" id="img" alt="tops">
+                <h3>Tops</h3>
+                <p>₹399</p>
+                <button class="add-to-cart" data-id="12" data-name="Tops" data-price="399">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="frock.jpeg" id="img" alt="Frock">
+                <h3>Frocks</h3>
+                <p>₹699</p>
+                <button class="add-to-cart" data-id="13" data-name="Frocks" data-price="699">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="saree.jpeg" id="img" alt="Saree">
+                <h3>Saree</h3>
+                <p>₹1299</p>
+                <button class="add-to-cart" data-id="14" data-name="Saree" data-price="1299">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="denim.jpg" id="img" alt="Denim Jacket">
+                <h3>Denim Jacket</h3>
+                <p>₹899</p>
+                <button class="add-to-cart" data-id="15" data-name="Denim Jacket" data-price="899">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="shirt.jpg" id="img" alt="Shirts">
+                <h3>Shirts</h3>
+                <p>₹999</p>
+                <button class="add-to-cart" data-id="16" data-name="Shirts" data-price="999">Add to Cart</button>
+            </div>
+        </div>
+        
+    </main>
+   
+    <footer>
+        <p>&copy; 2024 Fashion Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
